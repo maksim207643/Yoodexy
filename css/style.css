@@ -72,6 +72,17 @@ body {
     justify-content: center;
 }
 
+.hero5 {
+    background-image: img/19356519-coverplaceholder_l.webp;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
@@ -195,4 +206,5 @@ body {
     }
     
     .hero h1 {
+
         font-size
