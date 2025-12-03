@@ -133,6 +133,13 @@ body {
     color: #2c3e50;
 }
 
+.features h4 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: #2c3e50;
+}
+
 .features a {
     text-align: center;
     color: #2c3e50;
