@@ -218,10 +218,10 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 470px) {
     .hero {
         padding: 80px 0;
-        min-height: 420px;
+        min-height: 400px;
     }
     
     .hero h1 {
