@@ -21,6 +21,11 @@ body {
     padding: 0 15px;
 }
 
+.translate {
+    background: transparent;
+    
+}
+
 /* Шапка */
 .header {
     background-color: #fff;
