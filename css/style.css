@@ -23,7 +23,8 @@ body {
 
 .translate {
     background: transparent;
-    
+    border: none;
+    margin-left: 12px;
 }
 
 /* Шапка */
