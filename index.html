@@ -10,8 +10,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Yoodexy" />
     <link rel="manifest" href="favicon/site.webmanifest" />
-    
+    <link rel="stylesheet" href="css/style.css">
     <link href="snowFlakes/snow.min.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
 </head>
 <body>
     <script src="snowFlakes/Snow.js"></script>
@@ -22,16 +23,16 @@
         <div class="container">
             <div class="logo"><a src="#"></a>Yoodexy</a></div>
             <img src="img/i_(6)[1]-round.png" height="50" alt="logo">
-            <a href="https://maksim207643.github.io/Yoodexy/map_load.html#mod">Новая карта 🎉</a>
+            <a href="https://maksim207643.github.io/Yoodexy/map_load.html#mod" class="lang" key="new">Новая карта 🎉</a>
             <nav class="nav">
                 <ul>
                     
-                    <li><a href="#work" class="lang" key="work">Мои работы</a></li>
-                    <li><a href="#net" class="lang" key="net">Соцсети</a></li>
-                    <li><a href="#pro" class="lang" key="map">Прохождение</a></li>
+                    
+                    <li><a href="social" class="lang" key="net">Больше соцсетей</a></li>
+                    
                     <li><a href="map_load.html" class="lang" key="download">Скачать карты</a></li>
-                    <li class="header-item-lang-ru"><a id="ru" class="translate"><img src="img/ru.webp" alt="flag of Russia" width="40px" height="30px"></a></li>
-                    <li class="header-item-lang-en"><a href="index_en.html" id="en" class="translate"><img src="img/en.png" alt="flag of USA" width="40px" height="30px"></a></li>
+                    <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="img/ru.webp" alt="flag of Russia" width="40px" height="30px"></button></li>
+                    <li class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.png" alt="flag of USA" width="40px" height="30px"></button></li>
                     
                 </ul>
             </nav>
@@ -41,26 +42,26 @@
     <section class="hero">
         <div class="container">
             <h1>VladislavvC (aka Yoodexy)</h1>
-            <h2>У меня вчера был день рождения!!!🥳🎉</h2>
+            <h2 class="lang" key="year">У меня во вторник был день рождения!!!🥳🎉</h2>
             <br>
-            <p>Самый крутой строитель карт для майнкрафта</p>
-            <a class="btn" href="more.html">Узнать больше</a>
+            <p class="lang" key="op">Самый крутой строитель карт для майнкрафта</p>
+            <a class="btn lang" href="more.html" key="more">Узнать больше</a>
         </div>
     </section>
 
     <section id="work" class="features">
         <div class="container">
-            <h2 id="work">Мои работы</h2>
+            <h2 id="work" class="lang" key="work">Мои работы</h2>
             <div class="cards">
                 <div class="card">
                     <div><img src="img/68747470733a2f2f63646e2e66726565626965737570706c792e636f6d2f6c6f676f732f6c617267652f32782f6d696e6563726166742d312d6c6f676f2d706e672d7472616e73706172656e742e706e67.png" weight="100" height="110"></div>
                     <h3>Minecraft-inside</h3>
-                    <a href="https://minecraft-inside.ru/user/_Vladislavv_/">клик</a>
+                    <a href="https://minecraft-inside.ru/user/_Vladislavv_/" class="lang" key="clk">клик</a>
                 </div>
                 <div class="card">
                     <div><img src="img/i (3)-fotor-bg-remover-20251117205358.png" weight="100" height="110"></div>
                     <h3>PlanetMinecraft</h3>
-                    <a href="https://www.planetminecraft.com/member/vladislavvc/">клик</a>
+                    <a href="https://www.planetminecraft.com/member/vladislavvc/" class="lang" key="clk">клик</a>
                 </div>
                 
             </div>
@@ -68,30 +69,30 @@
     </section>
     <section id="net" class="features">
         <div class="container">
-            <h2 >Соцсети</h2>
-            <h4><a href="social.html">больше</a><h4>
+            <h2 class="lang" key="nets">Соцсети</h2>
+            
             <div class="cards">
                 <div class="card">
                     <div><img src="img/i (1)-fotor-bg-remover-2025111720341.png" weight="100" height="110"></div>
                     <h3>Boosty</h3>
-                    <a href="https://boosty.to/yoodexy">клик</a>
+                    <a href="https://boosty.to/yoodexy" class="lang" key="clk">клик</a>
                 </div>
                 <div class="card">
                     <div><img src="img/i (2)-fotor-bg-remover-2025111720508.png" weight="100" height="110"></div>
                     <h3>Youtube</h3>
-                    <a href="https://www.youtube.com/channel/UC1i0f5k1WQ0M4HkbigsTTkw">клик</a>
+                    <a href="https://www.youtube.com/channel/UC1i0f5k1WQ0M4HkbigsTTkw" class="lang" key="clk">клик</a>
                 </div>
                 <div class="card">
                     <div><img src="img/Telegram_2019_Logo.svg.png" weight="80" height="88"></div>
-                    <h3>Телеграм</h3>
-                    <a href="https://t.me/clownyoodexy">клик</a>
+                    <h3 class="lang" key="tg">Телеграм</h3>
+                    <a href="https://t.me/clownyoodexy" class="lang" key="clk">клик</a>
                 </div>
             </div>
         </div>
     </section>'
     <section id="pro" class="features">
         <div class="container">
-            <h2 id="pro">Прохождения от Лололошки</h2>
+            <h2 id="pro" class="lang" key="pro">Прохождения от Лололошки</h2>
             <div class="cards">
                 <div class="card">
                     <div class="icon">⚡</div>
@@ -114,10 +115,9 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Yoodexy. Все права защищены.</p>
+            <p class="lang" key="end">&copy; 2025 Yoodexy. Все права защищены.</p>
         </div>
     </footer>
 </body>
 </html>
-
 
