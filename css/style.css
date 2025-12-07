@@ -214,6 +214,11 @@ body {
     .hero h1 {
 
         font-size
+@media (min-width: 1000px) {
+    .sss {
+        color: #2c3e50;
+    }
+}
 
 
 
