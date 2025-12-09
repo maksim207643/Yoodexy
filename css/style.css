@@ -217,6 +217,7 @@ body {
 @media (min-width: 1000px) {
     .sss {
         color: #2c3e50;
+        opacity: 0;
     }
 }
 
