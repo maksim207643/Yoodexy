@@ -11,4 +11,22 @@ body {
     color: #333;
     background-color: #f9f9f9;
     scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: #fff;
+    color: #667eea;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
