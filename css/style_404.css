@@ -16,6 +16,10 @@ body {
     
 }
 
+body h1{
+    font-weight: 400;
+}
+
 .center {
     text-align: center;
 }
