@@ -4,69 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 — Страница не найдена</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            padding: 40px;
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 6rem;
-            color: #e74c3c;
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #2c3e50;
-        }
-        p {
-            font-size: 1.1rem;
-            color: #7f8c8d;
-            margin-bottom: 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #2980b9;
-        }
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 4rem;
-            }
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Yoodexy" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="stylesheet" href="css/style_404.css">
+    <link href="snowFlakes/snow.min.css" rel="stylesheet">
 </head>
 <body>
+    <script src="snowFlakes/Snow.js"></script>
+    <script>
+    	new Snow ();
+    </script>
     <div class="container">
         <h1>404</h1>
         <h2>Страница не найдена</h2>
@@ -74,7 +25,8 @@
             К сожалению, запрошенная вами страница не существует или была перемещена.<br>
             Пожалуйста, проверьте правильность введённого адреса или воспользуйтесь меню сайта.
         </p>
-        <a href="/" class="btn">Вернуться на главную</a>
+        <a href="https://maksim207643.github.io/Yoodexy/" class="btn">Вернуться на главную</a>
     </div>
 </body>
 </html>
+
